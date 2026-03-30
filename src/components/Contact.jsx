@@ -8,11 +8,11 @@ const Contact = () => {
         <h4 style={{ color: 'var(--accent-color)', marginBottom: '0.5rem' }}>Get in Touch</h4>
         <h2 style={{ color: 'var(--primary-dark)' }}>Contact Us For Orders</h2>
       </div>
-      
+
       <div className="container contact-container">
         <div className="contact-info">
           <h3>Contact Information</h3>
-          
+
           <div className="info-item">
             <MapPin size={24} />
             <div>
@@ -20,7 +20,7 @@ const Contact = () => {
               <p style={{ color: "var(--text-light)", fontSize: "0.95rem" }}>Susta-2, Mahalbari,<br />Nepal</p>
             </div>
           </div>
-          
+
           <div className="info-item">
             <Phone size={24} />
             <div>
@@ -28,7 +28,7 @@ const Contact = () => {
               <a href="tel:+9779857080374">+977 9857080374</a>
             </div>
           </div>
-          
+
           <div className="info-item">
             <Mail size={24} />
             <div>
@@ -36,7 +36,7 @@ const Contact = () => {
               <a href="mailto:basisthadairy123@gmail.com">basisthadairy123@gmail.com</a>
             </div>
           </div>
-          
+
           <div className="info-item">
             <Clock size={24} />
             <div>
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="contact-form">
           <h3 style={{ marginBottom: "1.5rem", color: "var(--primary-dark)" }}>Send a Message</h3>
           <form action="https://formsubmit.co/basisthadairy123@gmail.com" method="POST">
@@ -53,7 +53,7 @@ const Contact = () => {
             <input type="hidden" name="_captcha" value="false" />
             <div className="form-group">
               <label>Full Name</label>
-              <input type="text" name="name" className="form-control" placeholder="John Doe" required />
+              <input type="text" name="name" className="form-control" placeholder="Sagar Dhakal" required />
             </div>
             <div className="form-group">
               <label>Email Address / Phone Number</label>
@@ -61,10 +61,10 @@ const Contact = () => {
             </div>
             <div className="form-group">
               <label>Message / Order Details</label>
-              <textarea 
+              <textarea
                 name="message"
-                className="form-control" 
-                rows="5" 
+                className="form-control"
+                rows="5"
                 placeholder="I would like to order..."
                 required
               ></textarea>
