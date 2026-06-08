@@ -19,7 +19,7 @@ const Footer = () => {
               Fresh Dairy Products from Our Farm to Your Home
             </p>
             <div className="social-links">
-              <a href="#" aria-label="Facebook"><FaFacebook size={20} /></a>
+              <a href="https://www.facebook.com/basisthadairy123" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebook size={20} /></a>
               <a href="#" aria-label="Instagram"><FaInstagram size={20} /></a>
               <a href="#" aria-label="Twitter"><FaTwitter size={20} /></a>
             </div>

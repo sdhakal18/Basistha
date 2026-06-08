@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { FaFacebook } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -42,6 +43,14 @@ const Contact = () => {
             <div>
               <h4 style={{ marginBottom: "0.2rem" }}>Business Hours</h4>
               <p style={{ color: "var(--text-light)", fontSize: "0.95rem" }}>Everyday: 6:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+
+          <div className="info-item">
+            <FaFacebook size={24} />
+            <div>
+              <h4 style={{ marginBottom: "0.2rem" }}>Facebook</h4>
+              <a href="https://www.facebook.com/basisthadairy123" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>basisthadairy123</a>
             </div>
           </div>
         </div>
