@@ -88,15 +88,15 @@ p { line-height: 1.6; color: var(--text-secondary); }
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
   color: var(--text-light);
-  box-shadow: 0 4px 14px 0 rgba(46, 125, 50, 0.39);
+  box-shadow: 0 4px 14px 0 rgba(46, 125, 50, 0.35);
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.23);
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);
 }
 
 .btn-secondary {
@@ -108,7 +108,8 @@ p { line-height: 1.6; color: var(--text-secondary); }
 .btn-secondary:hover {
   background-color: var(--primary-color);
   color: var(--text-light);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.15);
 }
 
 /* Animations */
@@ -322,25 +323,25 @@ p { line-height: 1.6; color: var(--text-secondary); }
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(0, 0, 0, 0.2);
 }
 .product-bg-bottle {
-  background-image: url('./assets/product-backgrounds/fresh-milk.svg');
+  background-image: url('./assets/products/fresh-milk.png');
 }
 .product-bg-pouch {
-  background-image: url('./assets/product-backgrounds/ghee.svg');
+  background-image: url('./assets/products/ghee.png');
 }
 .product-bg-cup {
-  background-image: url('./assets/product-backgrounds/dahi.svg');
+  background-image: url('./assets/products/dahi.png');
 }
 .product-bg-carton {
-  background-image: url('./assets/product-backgrounds/mohi.svg');
+  background-image: url('./assets/products/mohi.png');
 }
 .product-bg-bowl {
-  background-image: url('./assets/product-backgrounds/rasbari.svg');
+  background-image: url('./assets/products/rasbari.png');
 }
 .product-bg-tub {
-  background-image: url('./assets/product-backgrounds/ice-cream.svg');
+  background-image: url('./assets/products/ice-cream.png');
 }
 .product-pack {
   position: relative;
@@ -507,40 +508,70 @@ p { line-height: 1.6; color: var(--text-secondary); }
 
 /* Footer Section */
 .footer {
-  background-color: var(--primary-dark);
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #092c0b 100%);
   color: var(--text-light);
   padding: 5rem 0 2rem;
+  border-top: 4px solid var(--accent-color);
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2.2fr 0.8fr 1fr 1fr;
   gap: 3rem;
   margin-bottom: 3rem;
 }
-.footer-brand .logo { color: var(--text-light); margin-bottom: 1rem; }
-.footer-tagline { color: #86efac; margin-bottom: 1.5rem; }
+.footer-brand .logo {
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.footer-brand .logo span {
+  color: var(--secondary-color) !important;
+}
+.footer-tagline { color: #a3e635; margin-bottom: 1.5rem; font-weight: 500; }
 .social-links { display: flex; gap: 1rem; }
 .social-links a {
   color: var(--text-light);
-  background: rgba(255,255,255,0.1);
-  width: 40px; height: 40px;
+  background: rgba(255,255,255,0.08);
+  width: 42px; height: 42px;
   display: flex; align-items: center; justify-content: center;
   border-radius: 50%;
   transition: var(--transition);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 .social-links a:hover {
-  background: var(--primary-color);
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #ffffff;
   transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(245, 124, 0, 0.3);
 }
-.footer h4 { margin-bottom: 1.5rem; }
+.footer h4 { 
+  margin-bottom: 1.5rem; 
+  color: #ffffff;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.footer h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 32px;
+  height: 2px;
+  background-color: var(--accent-color);
+}
 .footer-links { list-style: none; }
 .footer-links li { margin-bottom: 0.8rem; }
 .footer-links a { color: #cbd5e1; text-decoration: none; transition: var(--transition); }
-.footer-links a:hover { color: var(--text-light); padding-left: 5px; }
+.footer-links a:hover { 
+  color: var(--secondary-color); 
+  padding-left: 6px; 
+}
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.08);
   color: #94a3b8;
   font-size: 0.9rem;
 }
