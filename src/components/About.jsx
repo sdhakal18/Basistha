@@ -22,7 +22,7 @@ const About = () => {
           <h4 style={{ color: 'var(--accent-color)', marginBottom: '0.5rem' }}>About Us</h4>
           <h2>Dedicated to Providing the Best Quality Dairy</h2>
           <p>
-            Basistha Dairy Udhyog PVT Ltd is a local dairy business located in Kudiya 33007, Nepal. We specialize in producing and delivering 100% organic <strong>Buffalo and Cow milk</strong> directly from the local farms to your kitchen.
+            Basistha Dairy Udhyog PVT Ltd is a local dairy business located in Susta 2 mahalbari, Nawalparasi Nepal. We specialize in producing and delivering 100% organic <strong>Buffalo and Cow milk</strong> directly from the local farms to your kitchen.
           </p>
           <p style={{ marginTop: '1rem' }}>
             Whether it is the rich, creamy goodness of buffalo milk, the light and healthy benefits of cow milk, or our traditional ghee and sweets—every product is prepared with pure care to ensure you receive the finest farm-to-home quality.

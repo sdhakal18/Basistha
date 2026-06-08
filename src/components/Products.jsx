@@ -56,7 +56,7 @@ const Products = () => {
                 <div className={`product-pack product-pack-${product.visual}`} aria-label={`${product.name} package`}>
                   <div className="pack-brand">Basistha Dairy Udhyog PVT Ltd</div>
                   <div className="pack-name">{product.pack}</div>
-                  <div className="pack-location">Kudiya 33007, Nepal</div>
+                  <div className="pack-location">Susta 2, Nawalparasi</div>
                 </div>
               </div>
               <p className="product-brand">Basistha Dairy Udhyog PVT Ltd</p>

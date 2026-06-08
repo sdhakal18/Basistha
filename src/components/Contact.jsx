@@ -17,7 +17,7 @@ const Contact = () => {
             <MapPin size={24} />
             <div>
               <h4 style={{ marginBottom: "0.2rem" }}>Our Location</h4>
-              <p style={{ color: "var(--text-light)", fontSize: "0.95rem" }}>Kudiya 33007,<br />Nepal</p>
+              <p style={{ color: "var(--text-light)", fontSize: "0.95rem" }}>Susta 2 mahalbari,<br />Nawalparasi Nepal</p>
             </div>
           </div>
 

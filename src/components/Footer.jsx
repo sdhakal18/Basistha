@@ -38,7 +38,7 @@ const Footer = () => {
           <div>
             <h4>Contact Details</h4>
             <ul className="footer-links">
-              <li style={{ color: '#cbd5e1' }}>Kudiya 33007, Nepal</li>
+              <li style={{ color: '#cbd5e1' }}>Susta 2 mahalbari, Nawalparasi Nepal</li>
               <li><a href="tel:+9779857080374">+977 9857080374</a></li>
               <li><a href="mailto:basisthadairy123@gmail.com">basisthadairy123@gmail.com</a></li>
             </ul>

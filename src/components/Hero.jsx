@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="accent-text">From Farm to Home</span>
           </h1>
           <p className="hero-subtitle">
-            Experience the rich, creamy quality of organic cow and buffalo milk, fresh ghee, dahi, mohi, and traditional sweets prepared daily in Kudiya 33007, Nepal.
+            Experience the rich, creamy quality of organic cow and buffalo milk, fresh ghee, dahi, mohi, and traditional sweets prepared daily in Susta 2 mahalbari, Nawalparasi Nepal.
           </p>
           
           <div style={{ display: "flex", gap: "1rem" }}>
