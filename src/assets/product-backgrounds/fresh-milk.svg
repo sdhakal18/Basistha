@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef8ee"/>
+      <stop offset="1" stop-color="#fff7e8"/>
+    </linearGradient>
+    <linearGradient id="milk" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="420" fill="url(#bg)"/>
+  <circle cx="124" cy="86" r="62" fill="#f57c00" opacity=".12"/>
+  <circle cx="603" cy="334" r="92" fill="#2e7d32" opacity=".1"/>
+  <ellipse cx="360" cy="338" rx="245" ry="32" fill="#1e293b" opacity=".1"/>
+  <rect x="285" y="78" width="130" height="258" rx="36" fill="url(#milk)" stroke="#2e7d32" stroke-width="5"/>
+  <rect x="316" y="35" width="68" height="64" rx="17" fill="#ffffff" stroke="#2e7d32" stroke-width="5"/>
+  <rect x="322" y="26" width="56" height="18" rx="8" fill="#f57c00"/>
+  <path d="M292 168c48-23 75 25 118 0v89c-40 27-80-28-118 0z" fill="#2e7d32" opacity=".92"/>
+  <text x="350" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="800" fill="#fff">FRESH</text>
+  <text x="350" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#fff">MILK</text>
+  <path d="M156 274c58-64 111-92 177-120" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity=".65"/>
+  <path d="M154 274c58-64 111-92 177-120" fill="none" stroke="#dbeafe" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="197" cy="251" r="13" fill="#fff"/>
+  <circle cx="236" cy="216" r="9" fill="#fff"/>
+</svg>

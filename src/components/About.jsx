@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about-grid">
         <div className="about-image-wrapper">
           <img 
-            src="https://images.unsplash.com/photo-1599824632717-36e7807edeb8?auto=format&fit=crop&w=800&q=80" 
+            src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80" 
             alt="Cows in a field" 
             className="about-image"
           />
@@ -22,7 +22,7 @@ const About = () => {
           <h4 style={{ color: 'var(--accent-color)', marginBottom: '0.5rem' }}>About Us</h4>
           <h2>Dedicated to Providing the Best Quality Dairy</h2>
           <p>
-            Basistha Dairy Yudog is a local dairy business located in Susta-2, Mahalbari, Nepal. We take pride in providing our community with fresh, high-quality dairy products and authentic traditional sweets.
+            Basistha Dairy Udhyog PVT Ltd is a local dairy business located in Kudiya 33007, Nepal. We take pride in providing our community with fresh, high-quality dairy products and authentic traditional sweets.
           </p>
           <p style={{ marginTop: '1rem' }}>
             From our fresh milk to our rich, aromatic ghee, every product is made with love and traditional methods to ensure you get the best taste and nutrition possible.

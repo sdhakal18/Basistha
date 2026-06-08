@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4fbff"/>
+      <stop offset="1" stop-color="#eef8ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="420" fill="url(#bg)"/>
+  <circle cx="138" cy="102" r="78" fill="#2e7d32" opacity=".08"/>
+  <circle cx="586" cy="309" r="106" fill="#f57c00" opacity=".1"/>
+  <ellipse cx="350" cy="332" rx="250" ry="34" fill="#1e293b" opacity=".1"/>
+  <ellipse cx="350" cy="123" rx="170" ry="42" fill="#ffffff" stroke="#2e7d32" stroke-width="5"/>
+  <path d="M183 121h334l-42 215H225z" fill="#ffffff" stroke="#2e7d32" stroke-width="5"/>
+  <ellipse cx="350" cy="135" rx="140" ry="28" fill="#eef8ee"/>
+  <path d="M235 194h230v101H235z" fill="#2e7d32" opacity=".9"/>
+  <text x="350" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#fff">DAHI</text>
+  <text x="350" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fff7e8">YOGURT</text>
+  <circle cx="182" cy="245" r="24" fill="#fff"/>
+  <circle cx="520" cy="213" r="18" fill="#fff"/>
+  <circle cx="558" cy="248" r="12" fill="#fff"/>
+</svg>

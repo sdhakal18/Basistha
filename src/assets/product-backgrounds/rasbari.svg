@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#eef8ee"/>
+    </linearGradient>
+    <radialGradient id="sweet" cx=".35" cy=".3" r=".75">
+      <stop offset="0" stop-color="#fff6cf"/>
+      <stop offset="1" stop-color="#f0a130"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="420" fill="url(#bg)"/>
+  <circle cx="107" cy="93" r="74" fill="#f57c00" opacity=".12"/>
+  <circle cx="599" cy="322" r="96" fill="#2e7d32" opacity=".08"/>
+  <ellipse cx="350" cy="331" rx="254" ry="35" fill="#1e293b" opacity=".1"/>
+  <ellipse cx="350" cy="250" rx="210" ry="92" fill="#ffffff" stroke="#2e7d32" stroke-width="5"/>
+  <ellipse cx="350" cy="238" rx="172" ry="63" fill="#fff1bd"/>
+  <circle cx="276" cy="229" r="43" fill="url(#sweet)"/>
+  <circle cx="348" cy="208" r="45" fill="url(#sweet)"/>
+  <circle cx="425" cy="232" r="43" fill="url(#sweet)"/>
+  <circle cx="340" cy="267" r="39" fill="url(#sweet)"/>
+  <path d="M211 151c69-34 141-42 218-12 39 16 75 18 106 9" fill="none" stroke="#f57c00" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+  <text x="350" y="107" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="900" fill="#1b5e20">RASBARI</text>
+</svg>

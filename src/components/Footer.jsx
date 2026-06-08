@@ -9,7 +9,7 @@ const Footer = () => {
           
           <div className="footer-brand">
             <div className="logo">
-              <span style={{ color: "var(--secondary-color)" }}>Basistha Dairy</span> Yudog
+              <span style={{ color: "var(--secondary-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
             </div>
             <p className="footer-tagline">
               Fresh Dairy Products from Our Farm to Your Home
@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h4>Contact Details</h4>
             <ul className="footer-links">
-              <li style={{ color: '#cbd5e1' }}>Susta-2, Mahalbari, Nepal</li>
+              <li style={{ color: '#cbd5e1' }}>Kudiya 33007, Nepal</li>
               <li><a href="tel:+9779857080374">+977 9857080374</a></li>
               <li><a href="mailto:basisthadairy123@gmail.com">basisthadairy123@gmail.com</a></li>
             </ul>

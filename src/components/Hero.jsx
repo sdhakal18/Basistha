@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="container hero-container animate-fade-in">
         <div className="hero-content">
           <h1 className="hero-title">
-            Fresh Dairy Products from Our Farm to Your Home
+            Basistha Dairy Udhyog PVT Ltd
           </h1>
           <p className="hero-subtitle">
-            Experience the rich, authentic taste of traditional Nepalese dairy. Freshly produced daily in Mahalbari.
+            Fresh milk, ghee, dahi, mohi, rasbari, and dairy treats prepared with local care in Kudiya 33007, Nepal.
           </p>
           
           <div style={{ display: "flex", gap: "1rem" }}>
@@ -35,8 +35,8 @@ const Hero = () => {
         <div className="hero-image-wrapper animate-fade-in" style={{ animationDelay: '0.2s' }}>
           {/* We'll use a local image placeholder for now, usually you'd add real assets */}
           <img 
-            src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=80" 
-            alt="Fresh Milk in a glass bottle"
+            src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=900&q=80" 
+            alt="Cow at a dairy farm"
             className="hero-image"
           />
         </div>

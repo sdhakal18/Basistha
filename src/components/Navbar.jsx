@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#home" className="logo">
-          <span style={{ color: "var(--accent-color)" }}>Basistha Dairy</span> Yudog
+          <span style={{ color: "var(--accent-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
         </a>
 
         {/* Desktop Menu */}
