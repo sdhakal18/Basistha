@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import logoImg from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,10 @@ const Footer = () => {
           
           <div className="footer-brand">
             <div className="logo">
-              <span style={{ color: "var(--secondary-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
+              <img src={logoImg} alt="Basistha Dairy Logo" className="logo-img" />
+              <span className="logo-text">
+                <span style={{ color: "var(--secondary-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
+              </span>
             </div>
             <p className="footer-tagline">
               Fresh Dairy Products from Our Farm to Your Home

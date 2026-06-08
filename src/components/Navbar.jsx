@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,10 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#home" className="logo">
-          <span style={{ color: "var(--accent-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
+          <img src={logoImg} alt="Basistha Dairy Logo" className="logo-img" />
+          <span className="logo-text">
+            <span style={{ color: "var(--accent-color)" }}>Basistha Dairy</span> Udhyog PVT Ltd
+          </span>
         </a>
 
         {/* Desktop Menu */}

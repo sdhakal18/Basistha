@@ -6,11 +6,13 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="container hero-container animate-fade-in">
         <div className="hero-content">
+          <span className="hero-badge">Basistha Dairy Udhyog PVT Ltd</span>
           <h1 className="hero-title">
-            Basistha Dairy Udhyog PVT Ltd
+            Pure Buffalo & Cow Milk <br />
+            <span className="accent-text">From Farm to Home</span>
           </h1>
           <p className="hero-subtitle">
-            Fresh milk, ghee, dahi, mohi, rasbari, and dairy treats prepared with local care in Kudiya 33007, Nepal.
+            Experience the rich, creamy quality of organic cow and buffalo milk, fresh ghee, dahi, mohi, and traditional sweets prepared daily in Kudiya 33007, Nepal.
           </p>
           
           <div style={{ display: "flex", gap: "1rem" }}>

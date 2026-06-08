@@ -624,3 +624,51 @@ p { line-height: 1.6; color: var(--text-secondary); }
   .mobile-menu-btn { display: block; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* Custom Logo and Catchy Tagline Styling */
+.logo-img {
+  height: clamp(36px, 4.8vw, 48px);
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.logo-text {
+  display: inline-block;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.hero-badge {
+  display: inline-block;
+  background-color: var(--bg-tertiary);
+  color: var(--primary-color);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(46, 125, 50, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: var(--shadow-sm);
+}
+
+.accent-text {
+  color: var(--accent-color);
+  position: relative;
+  display: inline-block;
+}
+
+.accent-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 6px;
+  background-color: rgba(245, 124, 0, 0.15);
+  z-index: -1;
+  border-radius: 4px;
+}
+

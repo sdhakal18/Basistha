@@ -4,7 +4,7 @@ const Products = () => {
   const productsList = [
     {
       name: "Fresh Milk",
-      desc: "Pure, natural, and unprocessed fresh milk directly from our grass-fed cows.",
+      desc: "Pure, organic, and rich cow and buffalo milk sourced directly from local grass-fed cattle.",
       visual: "bottle",
       pack: "Fresh Milk"
     },
